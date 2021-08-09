@@ -1,0 +1,252 @@
+@font-face{
+	font-family: Sintony-Regular;
+	src: url(../fonts/Sintony-Regular.ttf);
+}
+@font-face{
+	font-family: Sintony-Bold;
+	src: url(../fonts/Sintony-Bold.ttf);
+}
+@font-face{
+	font-family: Inter-Regular;
+	src: url(../fonts/Inter-Regular.ttf);
+}
+
+/*common css start*/
+body{
+	font-family: Sintony-Regular;
+	color: white;
+	font-size: 16px;
+}
+/*common css end*/	
+
+/*header start*/
+header{
+	background-color: #a4d35a;
+}
+.logo{
+	margin-right: 35px;
+	background-color: #a4d35a;
+}
+.p0_custom{
+	padding: 0;
+}
+.nav_menu{
+	background-color: #272828;
+}
+.nav_menu ul li a{
+	text-decoration: none;
+	color: white;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.nav_menu ul li a:hover{
+	color: #a4d35a;
+}
+.nav_menu ul li{
+	margin: 0 30px;
+}
+
+.nav_custom_icon{
+	margin: 5px 0;
+	width: 30px;
+	height: 3px;
+	background-color: #272828;
+	border-radius: 3px;
+	display: block;
+}
+.nav-link:hover, .nav-link:focus {
+    color: #a4d35a;
+}
+/*header end*/ 
+
+/*hero start*/
+.c_indicators_custom [data-bs-target] {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+.c_indicators_custom {
+    right: 62%;
+    margin-left: 3%;
+    margin-bottom: 2rem;
+}
+/*hero end*/ 
+
+/*service start*/
+.service{
+	background-color: #16181b;
+}
+.s_service{
+	margin-top: 100px;
+	margin-bottom: 120px;
+}
+.s_service h1{
+	text-transform: uppercase;
+	font-size: 30px;
+}
+.s_service p{
+	color: #abbcc3;
+}
+.s_circle{
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	border: 3px solid #4b5058;
+	background-color: #16181b;
+}
+
+.c_i_custom2 {
+    right: -100% !important;
+    left: 93%;
+    width: 50px;
+    margin-right: 0;
+    
+}
+.c_i_custom2 {
+    bottom: 220px !important;
+
+}
+.c_i_custom2 ul{
+	list-style: none;
+}
+.c_i_custom2 ul li{
+	margin: -10px 0;
+}
+.d_custom{
+	display: block !important;
+}
+/*service end*/ 
+
+/*product start*/
+.product{
+  background-image: url('../images/product_background.jpg');
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 120px;
+  /*border: 1px solid red;*/
+}
+.p_slide_text{}
+.p_slide_text h6{
+	text-transform: uppercase;
+	font-family: Sintony-Bold;
+	font-size: 14px;
+	color: #8b8c8d;
+}
+.p_slide_text h4{
+	text-transform: uppercase;
+	font-size: 22px;
+}
+
+.p_c_indicators {
+	bottom: -75px;
+    margin-right: 0;
+    margin-left: 0;
+    
+}
+.p_c_indicators .active {
+    opacity: 1;
+    background-color: #afd869;
+}
+
+.p_c_indicators [data-bs-target] {
+    width: 23%;
+    margin-right: 8px;
+    margin-left: 8px;
+    
+}
+
+.ind_1{
+	color: white !important;
+	font-size: 30px;
+}
+
+/*product end*/
+
+/*join section start*/
+.join{
+	background-color: #a6d45b;
+	padding-top: 100px;
+	padding-bottom: 60px;
+}
+.join_text{}
+.join_text h2{
+	font-size: 30px;
+	letter-spacing: 0.5px;
+}
+.join_text p{
+	margin-top: 30px;
+}
+.join_text button{
+	margin-top: 40px;
+	min-width: 165px;
+	min-height: 55px;
+	font-family: Sintony-Bold;
+	font-size: 18px;
+	color: #a6d45b;
+	background-color: white;
+}
+.btn-check:focus + .btn, .btn:focus {
+    box-shadow: none;
+}
+
+.join_text button:hover{
+	color: white;
+	background-color: #a6d45b;;
+	border: 3px solid white;
+}
+
+.join_img{
+	/*max-height: 500px;*/
+}
+.join_img img{
+	max-height: 500px;
+}
+/*join section end*/ 
+
+/*footer start*/
+footer{
+	/*background-color: gray;*/
+	/*padding-top: 60px;*/
+	padding-bottom: 60px;
+}
+.f_s_wrapper{
+	margin-top: 60px;
+}
+.f_s_wrapper p{
+	margin-bottom: 20px;
+	font-family: Sintony-Bold;
+	text-transform: uppercase;
+	color: #737c85;
+}
+.f_s_wrapper ul{
+	padding: 0;
+	list-style: none;
+}
+.f_s_wrapper ul li{
+	margin-bottom: 15px;
+}
+.f_s_wrapper ul li a{
+	text-decoration: none;
+	color: #737c85;
+}
+.f_s_wrapper ul li a:hover{
+	color: #a4d35a;
+}
+
+.copyright{
+	margin-top: 90px;
+	text-align: center;
+}
+.copy_circle{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border: 7px solid #afd568;
+	display: inline-block;
+}
+.copyright p{
+	margin-top: 15px;
+	font-size: 12px;
+	color: #737c85;
+}
+/*footer end*/	
